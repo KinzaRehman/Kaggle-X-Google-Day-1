@@ -1,21 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Festive Effects Studio
 
-# Run and deploy your AI Studio app
+Sophisticated and formal Android mobile interface showcasing high-fidelity interactive physics particle simulations using Jetpack Compose and modern Material Design 3.
 
-This contains everything you need to run your app locally.
+This application is proudly built as a part of the **Kaggle X Google AI Intensive** program.
 
-View your app in AI Studio: https://ai.studio/apps/fafdf2c2-0b9b-4693-b393-cbf747ec4c9f
+## Project Essence
 
-## Run Locally
+Festive Effects Studio features an elegant dashboard styled under a deep, minimalist slate-obsidian visual theme. The interface provides immediate physical rendering feedback through custom canvas particle equations:
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- **Snowflake Particle Simulator**: Renders realistic multi-branched hexagonal crystals with custom rotation speeds, continuous angular trajectories, and subtle lateral sinuous drifts. Runs for exactly 5 seconds upon trigger.
+- **Balloon Particle Simulator**: Generates glossy, egg-shaped balloons with physical wiggling strings and realistic upward buoyancy drift. Runs for exactly 5 seconds upon trigger.
 
+## Structural Design Pillars
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+- **Material 3 Ecosystem**: Employs an advanced obsidian dark theme, custom button state-tracking outlines, and a clean telemetry card displaying performance metrics in real time.
+- **Double-Buffered State Engine**: Implements efficient frame-locked state updates using state loops linked to the hardware display refresh rate.
+- **100% Native Drawing Core**: Bypasses heavy raster images to draw vector graphics programmatically inside Jetpack Compose `Canvas` coordinates, preserving device memory and maximizing GPU drawing rates.
+
+---
+*Developed for the Kaggle X Google AI Intensive Showcase.*
